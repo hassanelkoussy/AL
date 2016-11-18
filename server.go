@@ -10,6 +10,7 @@ import (
 )
 
 func main() {
+	http.HandleFunc("/", defaultHandler)
 	http.HandleFunc("/api/coursework", courseworkHandler)
 
 	port := os.Getenv("PORT")
@@ -19,6 +20,10 @@ func main() {
 
 	fmt.Printf("Server listening on port %s...\n", port)
 	http.ListenAndServe(":"+port, nil)
+}
+
+func defaultHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintln(w, "Hello, Heroku!")
 }
 
 func courseworkHandler(w http.ResponseWriter, r *http.Request) {
