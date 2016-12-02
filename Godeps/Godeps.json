@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/ar-maged/guc-api",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v75",
+	"Deps": []
+}
