@@ -16,6 +16,7 @@ Example: if your username is `john.doe` & your password is `12345`, then your HT
 
 ### API Calls
 
+<<<<<<< HEAD
 * `GET http://guc-api.herokuapp.com/api/login`
 
 Response:
@@ -36,26 +37,28 @@ or
 * `GET http://guc-api.herokuapp.com/api/coursework`
 
 Response:
+=======
+#### Login 
+
+`GET http://guc-api.herokuapp.com/api/login`
+
+Response:
 ```
-[  
-   {  
-      "code": "CSEN701",
-      "name": "Embedded System Architecture",
-      "grades": [  
-         {  
-            "module": "Assignment 1",
-            "point": "9.75",
-            "maxPoint": "10"
-         },
-         ...
-      ]
-   },
-   ...
-]
+{
+    "authorized": true
+}
+```
+or
+>>>>>>> 6b64e1c716e8fb8e1a2ffceac7ac9a52dbe004ee
+```
+{
+    "authorized": false
+}
 ```
 
 ***
 
+<<<<<<< HEAD
 * `GET http://guc-api.herokuapp.com/api/midterms`
 
 Response:
@@ -67,10 +70,57 @@ Response:
    },
    ...
 ]
+=======
+#### Coursework 
+
+`GET http://guc-api.herokuapp.com/api/coursework`
+
+Response:
+```
+{  
+   "error": null,
+   "data": [  
+      {  
+         "code": "CSEN701",
+         "name": "Embedded System Architecture",
+         "grades": [  
+            {  
+               "module": "Assignment 1",
+               "point": "9.75",
+               "maxPoint": "10"
+            },
+            ...
+         ]
+      },
+      ...
+   ]
+}
 ```
 
 ***
 
+#### Midterms 
+
+`GET http://guc-api.herokuapp.com/api/midterms`
+
+Response:
+```
+{  
+   "error": null,
+   "data": [  
+      {  
+         "name": "MET Computer Science 7th Semester - Analysis and Design of Algorithms CSEN703",
+         "percentage": "41.25"
+      },
+      ...
+   ]
+}
+>>>>>>> 6b64e1c716e8fb8e1a2ffceac7ac9a52dbe004ee
+```
+
+***
+
+<<<<<<< HEAD
 * `GET http://guc-api.herokuapp.com/api/attendance`
 
 Response:
@@ -82,6 +132,24 @@ Response:
    },
    ...
 ]
+=======
+#### Attendance 
+
+`GET http://guc-api.herokuapp.com/api/attendance`
+
+Response:
+```
+{  
+   "error": null,
+   "data": [  
+      {  
+         "name": "Computer Graphics",
+         "level": "1"
+      },
+      ...
+   ]
+}
+>>>>>>> 6b64e1c716e8fb8e1a2ffceac7ac9a52dbe004ee
 ```
 
 ## Limitations
