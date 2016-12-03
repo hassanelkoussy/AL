@@ -16,28 +16,6 @@ Example: if your username is `john.doe` & your password is `12345`, then your HT
 
 ### API Calls
 
-<<<<<<< HEAD
-* `GET http://guc-api.herokuapp.com/api/login`
-
-Response:
-```
-{
-    "authorized": true
-}
-```
-or
-```
-{
-    "authorized": false
-}
-```
-
-***
-
-* `GET http://guc-api.herokuapp.com/api/coursework`
-
-Response:
-=======
 #### Login 
 
 `GET http://guc-api.herokuapp.com/api/login`
@@ -49,7 +27,6 @@ Response:
 }
 ```
 or
->>>>>>> 6b64e1c716e8fb8e1a2ffceac7ac9a52dbe004ee
 ```
 {
     "authorized": false
@@ -58,19 +35,6 @@ or
 
 ***
 
-<<<<<<< HEAD
-* `GET http://guc-api.herokuapp.com/api/midterms`
-
-Response:
-```
-[  
-   {  
-      "name": "MET Computer Science 7th Semester - Analysis and Design of Algorithms CSEN703",
-      "percentage": "41.25"
-   },
-   ...
-]
-=======
 #### Coursework 
 
 `GET http://guc-api.herokuapp.com/api/coursework`
@@ -115,24 +79,10 @@ Response:
       ...
    ]
 }
->>>>>>> 6b64e1c716e8fb8e1a2ffceac7ac9a52dbe004ee
 ```
 
 ***
 
-<<<<<<< HEAD
-* `GET http://guc-api.herokuapp.com/api/attendance`
-
-Response:
-```
-[  
-   {  
-      "name": "Computer Graphics",
-      "level": "1"
-   },
-   ...
-]
-=======
 #### Attendance 
 
 `GET http://guc-api.herokuapp.com/api/attendance`
@@ -149,7 +99,6 @@ Response:
       ...
    ]
 }
->>>>>>> 6b64e1c716e8fb8e1a2ffceac7ac9a52dbe004ee
 ```
 
 ## Limitations
