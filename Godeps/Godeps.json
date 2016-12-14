@@ -2,5 +2,68 @@
 	"ImportPath": "github.com/ar-maged/guc-api",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v75",
-	"Deps": []
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/graphql-go/graphql",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/gqlerrors",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/ast",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/kinds",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/lexer",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/location",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/parser",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/printer",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/source",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/typeInfo",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/visitor",
+			"Comment": "v0.4.18-56-g22050ee",
+			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "0e2717dc3cc05907dc23096ef3a9086ea93f567f"
+		}
+	]
 }
