@@ -41,7 +41,7 @@ or
 }
 ```
 
-___
+***
 
 #### Coursework
 
@@ -68,7 +68,7 @@ Response:
 }
 ```
 
-___
+***
 
 #### Midterms
 
@@ -88,7 +88,7 @@ Response:
 }
 ```
 
-___
+***
 
 #### Attendance
 
@@ -108,7 +108,7 @@ Response:
 }
 ```
 
-___
+***
 
 #### Exams Schedule
 
@@ -130,13 +130,14 @@ Response:
 }
 ```
 
-***
-
 ## GraphQL <img src="http://graphql.org/img/logo.svg" width="20"/>
 
-#### Student
+### Authentication
+Credentials are plainly provided as arguments to the root query *(to be improved)*.
 
-<pre><b>GET</b> http://guc-api.herokuapp.com/<b>graphql</b></pre>
+### GraphQL Call
+
+<pre><b>GET</b> http://guc-api.herokuapp.com/graphql</pre>
 
 Root Query:
 ```graphql
@@ -166,6 +167,49 @@ Root Query:
             seat
         }
     }
+}
+```
+Response:
+```javascript
+{  
+   "data": {  
+      "student": {  
+         "absenceLevels": [  
+            {  
+               "course": "Computer Graphics",
+               "level": 2
+            }
+         ],
+         "authorized": true,
+         "coursework": [  
+            {  
+               "course": "Advanced Computer lab",
+               "grades": [  
+                  {  
+                     "maxPoint": 1,
+                     "module": "In-Class Assignment 1",
+                     "point": 1
+                  },
+                  ...
+               ]
+            }
+         ],
+         "examsSchedule": [  
+            {
+               "course": "Analysis and Design of Algorithms",
+               "dateTime": "2016-10-24T16:00:00Z",
+               "venue": "Exam hall 2",
+               "seat": "E6"
+            }
+         ],
+         "midtermsGrades": [  
+            {  
+               "course": "Embedded System Architecture",
+               "percentage": 88.2353
+            }
+         ]
+      }
+   }
 }
 ```
 
