@@ -1,11 +1,21 @@
 {
 	"ImportPath": "github.com/ar-maged/guc-api",
-	"GoVersion": "go1.6",
-	"GodepVersion": "v75",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v79",
 	"Packages": [
 		"./..."
 	],
 	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/handlers",
+			"Comment": "v1.2",
+			"Rev": "3a5767ca75ece5f7f1440b1d16975247f8d8b221"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.3.0",
+			"Rev": "392c28fe23e1c45ddba891b0320b3b5df220beea"
+		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql",
 			"Comment": "v0.4.18-56-g22050ee",
