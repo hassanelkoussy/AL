@@ -1,83 +1,92 @@
 {
-	"ImportPath": "github.com/ar-maged/guc-api",
-	"GoVersion": "go1.7",
+	"ImportPath": "guc-api",
+	"GoVersion": "go1.9",
 	"GodepVersion": "v79",
 	"Packages": [
 		"./..."
 	],
 	"Deps": [
 		{
+			"ImportPath": "github.com/ar-maged/guc-api/factory",
+			"Rev": "ac6223edbc566a6a949e48cc65f94103d5d54805"
+		},
+		{
+			"ImportPath": "github.com/ar-maged/guc-api/graphql",
+			"Rev": "ac6223edbc566a6a949e48cc65f94103d5d54805"
+		},
+		{
+			"ImportPath": "github.com/ar-maged/guc-api/util",
+			"Rev": "ac6223edbc566a6a949e48cc65f94103d5d54805"
+		},
+		{
 			"ImportPath": "github.com/gorilla/handlers",
-			"Comment": "v1.2",
-			"Rev": "3a5767ca75ece5f7f1440b1d16975247f8d8b221"
+			"Comment": "v1.2.1-1-ga4d79d4",
+			"Rev": "a4d79d4487c2430a17d9dc8a1f74d1a6ed6908ca"
 		},
 		{
 			"ImportPath": "github.com/gorilla/mux",
-			"Comment": "v1.3.0",
-			"Rev": "392c28fe23e1c45ddba891b0320b3b5df220beea"
+			"Comment": "v1.5.0",
+			"Rev": "24fca303ac6da784b9e8269f724ddeb0b2eea5e7"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/gqlerrors",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/ast",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/kinds",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/lexer",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/location",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/parser",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/printer",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/source",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/typeInfo",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/graphql/language/visitor",
-			"Comment": "v0.4.18-56-g22050ee",
-			"Rev": "22050eec5107e195fbbd45345e4429bf912571dd"
+			"Comment": "v0.7.2-5-g4b17eb6",
+			"Rev": "4b17eb6eeba3fa46746944ea8c02f4b3758cc68f"
 		},
 		{
 			"ImportPath": "github.com/graphql-go/handler",
-			"Rev": "52e6de4fccd785952dce42265f316acd43a3053f"
-		},
-		{
-			"ImportPath": "golang.org/x/net/context",
-			"Rev": "0e2717dc3cc05907dc23096ef3a9086ea93f567f"
+			"Comment": "v0.2.0",
+			"Rev": "fb144b8b1e2e8ad591a72a481c3042212a5ddc2e"
 		}
 	]
 }
