@@ -8,15 +8,15 @@
 	"Deps": [
 		{
 			"ImportPath": "github.com/ar-maged/guc-api/factory",
-			"Rev": "ac6223edbc566a6a949e48cc65f94103d5d54805"
+			"Rev": "8c7331ff8141ac8fcdd54608aa1d512f9c4f6234"
 		},
 		{
 			"ImportPath": "github.com/ar-maged/guc-api/graphql",
-			"Rev": "ac6223edbc566a6a949e48cc65f94103d5d54805"
+			"Rev": "8c7331ff8141ac8fcdd54608aa1d512f9c4f6234"
 		},
 		{
 			"ImportPath": "github.com/ar-maged/guc-api/util",
-			"Rev": "ac6223edbc566a6a949e48cc65f94103d5d54805"
+			"Rev": "8c7331ff8141ac8fcdd54608aa1d512f9c4f6234"
 		},
 		{
 			"ImportPath": "github.com/gorilla/handlers",
